@@ -1,6 +1,6 @@
 import React from "react";
 
-import {supabase} from './../lib/supabaseClient';
+import {supabase} from './../lib/supabaseClient.js';
 
 function Page({countries}) {
     return (<ul> {
