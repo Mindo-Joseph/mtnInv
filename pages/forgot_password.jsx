@@ -32,7 +32,7 @@ const ForgotPassword = () => {
           ) : (
             <>
               <p className="mt-1">
-                Enter your email address and we'll send you a link to reset your
+                Enter your email address and we will send you a link to reset your
                 password.
               </p>
               <form onSubmit={handleResetPassword} className="mt-8 space-y-6">
