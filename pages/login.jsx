@@ -16,7 +16,7 @@ const LoginPage = () => {
     if (error) {
       alert(JSON.stringify(error));
     } else {
-      router.push("/");
+      router.push("/homepage");
     }
   }
   return (
